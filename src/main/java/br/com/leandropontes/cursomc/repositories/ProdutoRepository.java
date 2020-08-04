@@ -3,10 +3,10 @@ package br.com.leandropontes.cursomc.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.com.leandropontes.cursomc.domain.Categoria;
+import br.com.leandropontes.cursomc.domain.Produto;
 
 @Repository
-public interface CategoriaRepository extends JpaRepository<Categoria, Integer>{
+public interface ProdutoRepository extends JpaRepository<Produto, Integer>{
 
 	
 }
