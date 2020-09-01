@@ -24,7 +24,6 @@ public class EstadoResource {
 		Optional<Estado> obj;
 		obj = repo.findById(id);
 		return ResponseEntity.ok().body(obj.get());
-		
 	}
 
 }
